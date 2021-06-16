@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*	請將first 裡的 jumbotron class 的高度設定為 50vh。*/
+#first .jumbotron{
+	
+
+	height: 85vh;
+	
+}
+
+
+/*	請將first 裡的 h1 標籤的文字顏色為 brown。*/
+#first h1{
+	text-align: center;
+	color:#A36A00;
+}
+
+#introsecond h5{
+	color: #AD7100;
+}
+#introsecond p{
+color: #D68B00;
+}
+#introsecond 
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+#accordionExample img{
+	border-radius: 25px;
+
+}
+#QAfirst{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+#QAfirst h1{
+	padding-left: 210px;
+	color: #AD7100;
+}
+.accordion{
+	box-shadow:0 0 10px rgba(30,10,50,0.5);
+	border-radius:5px;
+	overflow:hidden;
+	font-family:"Quicksand", sans-serif;
+}
+#location{
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-bottom: 40px;
+}
+#location p{
+	padding-left: 920px;
+color: #D68B00;
+}
+#location h2{
+	padding-left: 620px;
+	color: #AD7100;
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html style="background-color: #FFFFC9;">
+<head>
+<meta charset="utf-8">
+<!--分頁顯示的名稱  A-4 -->
+<title>明星寵物！</title>
+		
+<!--  引入自己寫的CSS  A-2-->
+	
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-2 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!--給導覽列一個名字，叫做"bar"-->
+
+<!-- D-1 複製index.html 裡的導覽列, 一整個section 都要複製 -->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light" style="background-color: #FFD382;">
+			<a class="navbar-brand" href="#">帥哥寵物店</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link active" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">本店明星</a>
+					<a class="nav-item nav-link" href="qa.html">常見問題</a>
+					<a class="nav-item nav-link" href="conta.html">聯絡我們</a>
+					
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+
+
+
+
+<!--給圖文內容區一個名稱，叫做"introfirst"-->
+
+<section id="introsecond" style="background-color: #FFF0D4;">
+	<div class="container">
+	<div class="row">
+		<div class="col-4">
+			<div class="card" style="width: 20rem;">
+ 			<img src="img/S__3711040.jpg" class="card-img-top">
+			<div class="card-body">
+				<h5 class="card-title">No.1♕ 血輪眼貓貓</h5>
+				<p class="card-text">繼承宇智波家族血統的貓咪，是為家族滅族繼佐助存活下來後的第二生命體！</p>				
+		</div>
+		</div>
+		</div>
+		
+		<div class="col-4">
+		<div class="card" style="width: 20rem;">
+ 			<img src="img/asd.jpg"class="card-img-top">
+				  <div class="card-body">
+					<h5 class="card-title">No.2 貓頭鷹</h5>
+					<p class="card-text">為本店老闆進入虎頭山深山修練發現，疑似由貓咪與貓頭鷹交配混合出的品種</p>
+				
+  </div>
+</div>
+		</div>
+		<div class="col-4">
+		<div class="card" style="width: 24rem;">
+ 			 <img src="img/444.jpg" class="card-img-top">
+				  <div class="card-body">
+					  <h5 class="card-title">NO.3 鷹頭貓</h5>
+					<p class="card-text">也為本店老闆進入虎頭山修練發現之新品種，疑似由貓咪與貓頭鷹交配混合出的第二品種。</p>
+  </div>
+</div>
+		</div>
+		
+		
+		
+	</div>
+		
+		
+		
+		
+		
+	</div>
+	</section>
+	
+	
+</body>
+</html>
